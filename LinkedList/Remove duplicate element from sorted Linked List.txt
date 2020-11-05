@@ -1,0 +1,22 @@
+class GfG
+{
+    // head: head node
+    Node removeDuplicates(Node root)
+    {
+        Node t1=root;
+        while(t1.next!=null)
+        {
+            if(t1.data==t1.next.data)
+            {
+                t1.next=t1.next.next;
+            }
+            
+            else
+            {
+                t1=t1.next;
+            }
+        }
+        return root;
+	// Your code here	
+    }
+}
