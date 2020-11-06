@@ -1,0 +1,10 @@
+3 Steps to solve problem using reccursion
+
+1. Find the Base Case (Simplest Case)
+Think about the simplest possible input for this function.
+
+2.Find Relation
+Think how a larger problem can be solved with the help of Base case solution.
+
+3.Generalise
+Make a generalised function using both the above function.
