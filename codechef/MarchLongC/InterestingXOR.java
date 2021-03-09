@@ -20,7 +20,7 @@ class Codechef
 	        System.out.println(pdt);
 	        t--;
 	    }
-		// your code goes here
+		
 	}
 
 	
